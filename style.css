@@ -1,0 +1,79 @@
+body{
+    margin: auto;
+    width: 70%;
+    background-color: bisque;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    border: 5px solid black;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.tareas{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputTarea{
+    width: 25%;
+    border-radius: 5px;
+    
+}
+
+.botonTarea{
+    margin-left: 0.5%;
+    width: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h3{
+    margin-right: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    width: 50%;
+    margin:auto;
+}
+
+.tarea{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.completar{
+    height: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.eliminar{
+    height: 1%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+

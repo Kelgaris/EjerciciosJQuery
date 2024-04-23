@@ -1,0 +1,29 @@
+<!--
+    Generador de tareas que tendrá un botón para generar una tarea.
+    La cual se colocará en un menú de tareas
+    Y la misma tarea tendrá 2 botones
+    1 boton para completar la tarea con los estilos que estos contentan
+    1 boton para eliminar la tarea la cual desaparecerá
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <title>Gestión de tareas.</title>
+</head>
+<body>
+    <h1>Nuestra Lista de tareas</h1>
+    <div class="tareas">
+        <h3>Nueva Tarea: </h3>
+        <input class="inputTarea" type="text" name="titulo"  placeholder="Por favor inserte una nueva tarea">
+        <button class="botonTarea" type="button" name="botonCrear" id="botonCrear">Crear</button>
+    </div>
+    <div class="lista">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
